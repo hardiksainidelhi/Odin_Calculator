@@ -1,0 +1,35 @@
+#calculator{
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+#calculator-screen{
+    background-color: darkgray;
+    margin: 2px;
+    padding: 2px;
+    text-align: end;
+}
+
+.flex{
+    display: flex;
+}
+
+#num-grid{
+    flex: 1 1 3;
+}
+
+#operations-col{
+    flex: 1 1 1;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 3px;
+    margin: 2px;
+    font-size: medium;
+}
+
+.button-strech > button{
+    flex: 1 1 auto;
+}
